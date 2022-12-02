@@ -17,3 +17,36 @@ analysing the resumes in bulk rather than manually going through them.
 - Percentage matching for each resume
 - Ranking candidates based on the features
 
+
+## Deployment
+
+**Importing all required libraries:**
+
+- Pandas, Scikit, RegEx,
+
+**Reading the dataset- Resume Scanner.csv**
+
+**Handling Null values and dropping the features which are not required**
+
+**Fetching the unique value from the 'degree' feature**
+
+**Feature Handling of 'degree', 'links' and 'work_experience':**
+- 'degree' convert into 'bachelor', 'master', and 'docterte'
+- 'links' convert into 'profile'
+- handling the null values of work_experience and converted it's all data into integer format
+
+**Removing the 'degree' and 'links' from the dataset after feature handling**
+
+**Defining the functions to calculate the rank of the resume:**
+- Lemmatizer function
+- Function to differentiate noun, adjective, verb, adverb,
+
+**Opening the Job Description from the text file- Job Description.txt**
+
+**Reading all resume's from the dataset and convert into text which will appended into a list**
+
+**Getting the cosine score by calling cosine similarity function**
+
+**Generating dataframe which contains the name of the candidate and the cosine score**
+
+
