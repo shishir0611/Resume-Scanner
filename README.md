@@ -10,3 +10,10 @@ The aim is to reduce the complexity and make it easier for companies to hire can
 analysing the resumes in bulk rather than manually going through them.
 
 ```
+
+## Features
+
+- Extracting key words
+- Percentage matching for each resume
+- Ranking candidates based on the features
+
