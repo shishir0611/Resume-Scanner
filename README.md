@@ -24,7 +24,7 @@ analysing the resumes in bulk rather than manually going through them.
 
 - Pandas, Scikit, RegEx,
 
-**Reading the dataset- Resume Scanner.csv**
+**Reading the dataset- Resume Scanner.csv(Resume Scanner.rar)**
 
 **Handling Null values and dropping the features which are not required**
 
